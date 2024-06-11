@@ -1,0 +1,16 @@
+PODS:
+  - FSPopGesture (0.1.0)
+
+DEPENDENCIES:
+  - FSPopGesture (from `../`)
+
+EXTERNAL SOURCES:
+  FSPopGesture:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FSPopGesture: d12a7d0fe12f4a14c41e73ec04ffe22c84ee741f
+
+PODFILE CHECKSUM: 34531e1455d726cc09c875fab3f73db33e4bb6b3
+
+COCOAPODS: 1.15.2
