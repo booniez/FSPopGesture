@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		040D51CADB4679370BD6A103 /* Pods-FSPopGesture_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPopGesture_Tests.release.xcconfig"; path = "Target Support Files/Pods-FSPopGesture_Tests/Pods-FSPopGesture_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0B1D18F33C7E851D9E9DF372 /* FSPopGesture.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FSPopGesture.podspec; path = ../FSPopGesture.podspec; sourceTree = "<group>"; };
+		0B1D18F33C7E851D9E9DF372 /* FSPopGesture.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FSPopGesture.podspec; path = ../FSPopGesture.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		356DC476AB3E78C71FF450D1 /* Pods-FSPopGesture_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPopGesture_Example.debug.xcconfig"; path = "Target Support Files/Pods-FSPopGesture_Example/Pods-FSPopGesture_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5D0F18116D05A7EB00A7DA33 /* Pods_FSPopGesture_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSPopGesture_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* FSPopGesture_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSPopGesture_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,9 +44,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6718E0E5810E5FA6F75EEAD9 /* Pods-FSPopGesture_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPopGesture_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FSPopGesture_Tests/Pods-FSPopGesture_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		976E3A7D2332C072A3DE49AC /* Pods-FSPopGesture_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FSPopGesture_Example.release.xcconfig"; path = "Target Support Files/Pods-FSPopGesture_Example/Pods-FSPopGesture_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A0A029FEDAFD104B41E00B7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A0A029FEDAFD104B41E00B7C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AE4FC209A6113FFB44420BCA /* Pods_FSPopGesture_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FSPopGesture_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE4BBA7FB52DDE1240E71184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		DE4BBA7FB52DDE1240E71184 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,6 @@
 				6718E0E5810E5FA6F75EEAD9 /* Pods-FSPopGesture_Tests.debug.xcconfig */,
 				040D51CADB4679370BD6A103 /* Pods-FSPopGesture_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -419,7 +419,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -465,7 +465,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
